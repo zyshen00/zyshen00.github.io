@@ -127,6 +127,7 @@
   }
   .pubs li{margin:0 0 20px;line-height:1.6;}
   .pubs .ptitle{display:block;font-weight:600;color:#1a1a1a;}
+  .pubs .pubtag{color:var(--accent);white-space:nowrap;}
   .pubs .pauthors{display:block;font-size:.9em;color:#555;margin-top:3px;}
   .pubs .pauthors b{color:#222;}
   .pubs .pvenue{display:block;font-size:.9em;color:#7a7a7a;margin-top:1px;}
@@ -199,6 +200,7 @@
   <section>
     <h2>Recent News</h2>
     <ul class="center news">
+      <li>"ResiMoE: Graph-Stable MoE Offloading via Resident-Only Expert Substitution" got accepted in HPCA 2027 (CCF-A)</li>
       <li>"DiGiT: Co-Designing GNN Algorithms and Storage I/O for Out-of-Core Training Acceleration" got accepted in ACM SIGOPS ATC 2026 (CCF-A)</li>
       <li>"DAG-KV: DAG-Guided KV Propagation for Structure-Aware Knowledge Reuse" got accepted in ACM SIGOPS ATC 2026 (CCF-A)</li>
       <li>"Knowledge-Driven Hybrid SSD Management Enhanced by Fine-Tuned LLMs" got accepted in DAC 2026 (CCF-A)</li>
@@ -225,62 +227,67 @@
     <h3>会议论文</h3>
     <ol class="pubs">
       <li>
-        <span class="ptitle">DiGiT: Co-Designing GNN Algorithms and Storage I/O for Out-of-Core Training Acceleration</span>
+        <span class="ptitle"><span class="pubtag">【HPCA’27】</span> ResiMoE: Graph-Stable MoE Offloading via Resident-Only Expert Substitution</span>
+        <span class="pauthors">Jiahao Dong, Haolin Yang, Yuke Chen, Wei Zhang, Xin Yao, Qingqing Yang, Renhai Chen, Gong Zhang, Qian Wei, Wenbin Zhu, Mengying Zhao, <b>Zhaoyan Shen*</b></span>
+        <span class="pvenue">The 33rd IEEE International Symposium on High-Performance Computer Architecture (<b>HPCA</b>), Salt Lake City, Utah, USA, March 20 - 24, 2027 (CCF-A)</span>
+      </li>
+      <li>
+        <span class="ptitle"><span class="pubtag">【ATC’26】</span> DiGiT: Co-Designing GNN Algorithms and Storage I/O for Out-of-Core Training Acceleration</span>
         <span class="pauthors">Qian Wei, Yi Li, Junchi Ren, Zehao Chen, <b>Zhaoyan Shen*</b>, Dongxiao Yu, Bingzhe Li</span>
         <span class="pvenue">The 2026 ACM SIGOPS Annual Technical Conference (<b>ATC</b>), Shatin, Hong Kong, China, November 15 - 18, 2026 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">DAG-KV: DAG-Guided KV Propagation for Structure-Aware Knowledge Reuse</span>
+        <span class="ptitle"><span class="pubtag">【ATC’26】</span> DAG-KV: DAG-Guided KV Propagation for Structure-Aware Knowledge Reuse</span>
         <span class="pauthors">Wenbin Zhu, <b>Zhaoyan Shen*</b>, Qian Wei, Xin Yao, Xi Peng, Wei Zhang, Renhai Chen, Gong Zhang, Hongjun Dai, Dongxiao Yu, Shujian Zhao</span>
         <span class="pvenue">The 2026 ACM SIGOPS Annual Technical Conference (<b>ATC</b>), Shatin, Hong Kong, China, November 15 - 18, 2026 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">Knowledge-Driven Hybrid SSD Management Enhanced by Fine-Tuned LLMs</span>
+        <span class="ptitle"><span class="pubtag">【DAC’26】</span> Knowledge-Driven Hybrid SSD Management Enhanced by Fine-Tuned LLMs</span>
         <span class="pauthors">Qian Wei, <b>Zhaoyan Shen*</b>, Yi Li, Dongxiao Yu, Zehao Chen, Bingzhe Li</span>
         <span class="pvenue">The 63th Design Automation Conference (<b>DAC</b>), Long Beach, CA, USA, July 26 - 29, 2026 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">CSD-CoKV: Host-CSD Collaborative Offloading for High-Performance LSM-tree based KV Stores</span>
+        <span class="ptitle"><span class="pubtag">【ICDE’26】</span> CSD-CoKV: Host-CSD Collaborative Offloading for High-Performance LSM-tree based KV Stores</span>
         <span class="pauthors">Zhining Cao, Kai Zhang, Jinrun Yang, Hui Li, Nan Su, Qian Wei, Shikun Ma, Zehao Chen, Junbo Yin, Haijun Zhang, <b>Zhaoyan Shen*</b></span>
         <span class="pvenue">The 42th IEEE International Conference on Data Engineering (<b>ICDE</b>), Montreal, Canada, May 4 - 8, 2026 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">HiDPU: A DPU-Oriented Hybrid Indexing Scheme for Disaggregated Storage Systems</span>
+        <span class="ptitle"><span class="pubtag">【FAST’25】</span> HiDPU: A DPU-Oriented Hybrid Indexing Scheme for Disaggregated Storage Systems</span>
         <span class="pauthors">Wenbin Zhu, <b>Zhaoyan Shen*</b>, Qian Wei, Renhai Chen, Xin Yao, Dongxiao Yu, Zili Shao</span>
         <span class="pvenue">23th USENIX Conference on File and Storage Technologies (<b>FAST</b>), Santa Clara, CA, USA, February 25 - 27, 2025 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">HaSiS: A Hardware-assisted Single-index Store for Hybrid Transactional and Analytical Processing</span>
+        <span class="ptitle"><span class="pubtag">【FAST’25】</span> HaSiS: A Hardware-assisted Single-index Store for Hybrid Transactional and Analytical Processing</span>
         <span class="pauthors">Kecheng Huang, <b>Zhaoyan Shen*</b>, Zili Shao, Feng Chen, Tong Zhang</span>
         <span class="pvenue">23th USENIX Conference on File and Storage Technologies (<b>FAST</b>), Santa Clara, CA, USA, February 25 - 27, 2025 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">A Deep Dive into Protocol Design: How to Improve IPFS Performance Without Sacrificing Decentralization</span>
+        <span class="ptitle"><span class="pubtag">【ICDE’25】</span> A Deep Dive into Protocol Design: How to Improve IPFS Performance Without Sacrificing Decentralization</span>
         <span class="pauthors">Wenbin Zhu, <b>Zhaoyan Shen*</b>, Mengying Zhao, Dongxiao Yu, Bingzhe Li</span>
         <span class="pvenue">The 41th IEEE International Conference on Data Engineering (<b>ICDE</b>), Hongkong, China, May 19 - 23, 2025 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">Breathing New Life into An Old Tree: Resolving Logging Dilemma of B+-tree on Modern Computational Storage Drives</span>
+        <span class="ptitle"><span class="pubtag">【VLDB’24】</span> Breathing New Life into An Old Tree: Resolving Logging Dilemma of B+-tree on Modern Computational Storage Drives</span>
         <span class="pauthors">Kecheng Huang, <b>Zhaoyan Shen*</b>, Zili Shao, Tong Zhang, Feng Chen</span>
         <span class="pvenue">International Conference on Very Large Databases (<b>VLDB</b>), Guangzhou, China, August 25 - 29, 2024 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">ChainKV: A Semantics-Aware Key-Value Store for Ethereum</span>
+        <span class="ptitle"><span class="pubtag">【SIGMOD’24】</span> ChainKV: A Semantics-Aware Key-Value Store for Ethereum</span>
         <span class="pauthors">Zehao Chen, Bingzhe Li, Xiaojun Cai, Zhiping Jia, Lei Ju, Zili Shao, <b>Zhaoyan Shen*</b></span>
         <span class="pvenue">2024 ACM <b>SIGMOD</b>/PODS Conference, Santiago, Chile, June 9 - 15, 2024 (CCF-A) (<a href="https://github.com/czh-rot/ChainKV" target="_blank" rel="noopener"><b>SourceCode</b></a>)</span>
       </li>
       <li>
-        <span class="ptitle">Removing Double-Logging with Passive Data Persistence in LSM-tree based Relational Databases</span>
+        <span class="ptitle"><span class="pubtag">【FAST’22】</span> Removing Double-Logging with Passive Data Persistence in LSM-tree based Relational Databases</span>
         <span class="pauthors">Kecheng Huang, <b>Zhaoyan Shen*</b>, Zhiping Jia, Zili Shao, Feng Chen</span>
         <span class="pvenue">20th USENIX Conference on File and Storage Technologies (<b>FAST</b>), Santa Clara, CA, USA, February 22 - 24, 2022 (CCF-A) (<a href="https://github.com/ericaloha/MyRocks-PASV" target="_blank" rel="noopener"><b>SourceCode</b></a>)</span>
       </li>
       <li>
-        <span class="ptitle">Less is More: De-amplifying I/Os for Key-value Stores with a Log-assisted LSM-tree</span>
+        <span class="ptitle"><span class="pubtag">【ICDE’21】</span> Less is More: De-amplifying I/Os for Key-value Stores with a Log-assisted LSM-tree</span>
         <span class="pauthors">Kecheng Huang, Zhiping Jia, <b>Zhaoyan Shen*</b>, Zili Shao, Feng Chen</span>
         <span class="pvenue">The 37th IEEE International Conference on Data Engineering (<b>ICDE</b>), 2021 (CCF-A) (<a href="https://github.com/ericaloha/L2SM" target="_blank" rel="noopener"><b>SourceCode</b></a>)</span>
       </li>
       <li>
-        <span class="ptitle">DIDACache: A Deep Integration of Device and Application for Flash Based Key-Value Caching</span>
+        <span class="ptitle"><span class="pubtag">【FAST’17】</span> DIDACache: A Deep Integration of Device and Application for Flash Based Key-Value Caching</span>
         <span class="pauthors"><b>Zhaoyan Shen</b>, Feng Chen, Yichen Jia, Zili Shao</span>
         <span class="pvenue">15th USENIX Conference on File and Storage Technologies (<b>FAST</b>), Santa Clara, CA, USA, February 27 - March 2, 2017 (CCF-A)</span>
       </li>
@@ -289,32 +296,32 @@
     <h3>期刊论文</h3>
     <ol class="pubs">
       <li>
-        <span class="ptitle">Reducing I/O Amplification for Key-Value Stores With a Log-Assisted Log-Structured Merge Tree</span>
+        <span class="ptitle"><span class="pubtag">【TKDE’26】</span> Reducing I/O Amplification for Key-Value Stores With a Log-Assisted Log-Structured Merge Tree</span>
         <span class="pauthors">Kecheng Huang, Minyang Bao, Kai Zhang, Nan Su, <b>Zhaoyan Shen</b>, Zili Shao</span>
         <span class="pvenue">IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), 38(8), 2026 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">A Passive and Hybrid Data Persistence Scheme for LSM-tree based Relational Databases</span>
+        <span class="ptitle"><span class="pubtag">【TOS’26】</span> A Passive and Hybrid Data Persistence Scheme for LSM-tree based Relational Databases</span>
         <span class="pauthors">Kecheng Huang, Canran Liu, <b>Zhaoyan Shen</b>, Zili Shao, Feng Chen</span>
         <span class="pvenue">ACM Transactions on Storage (<b>TOS</b>), 22(4), 2026 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">A Single-Index Store for Hybrid Transactional and Analytical Processing on Modern Computational Storage Drives</span>
+        <span class="ptitle"><span class="pubtag">【TOCS’26】</span> A Single-Index Store for Hybrid Transactional and Analytical Processing on Modern Computational Storage Drives</span>
         <span class="pauthors">Kecheng Huang, <b>Zhaoyan Shen</b>, Zili Shao, Feng Chen, Tong Zhang</span>
         <span class="pvenue">ACM Transactions on Computer Systems (<b>TOCS</b>), 2026 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">ASHL: An Adaptive Multi-stage Distributed Deep Learning Training Scheme for Heterogeneous Environments</span>
+        <span class="ptitle"><span class="pubtag">【TC’24】</span> ASHL: An Adaptive Multi-stage Distributed Deep Learning Training Scheme for Heterogeneous Environments</span>
         <span class="pauthors"><b>Zhaoyan Shen</b>, Qingxiang Tang, Tianren Zhou, Yuhao Zhang, Zhiping Jia, Dongxiao Yu, Zhiyong Zhang, Bingzhe Li</span>
         <span class="pvenue">IEEE Transactions on Computers (<b>TC</b>), 2024 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">A Multi-Agent Reinforcement Learning-Assisted Cache Cleaning Scheme for DM-SMR</span>
+        <span class="ptitle"><span class="pubtag">【TCAD’22】</span> A Multi-Agent Reinforcement Learning-Assisted Cache Cleaning Scheme for DM-SMR</span>
         <span class="pauthors"><b>Zhaoyan Shen</b>, Yuhan Yang, Yungang Pan, Yuhao Zhang, Zhiping Jia, Xiaojun Cai, Bingzhe Li, Zili Shao</span>
         <span class="pvenue">IEEE Transactions on CAD of Integrated Circuits and Systems (<b>TCAD</b>), 2022 (CCF-A)</span>
       </li>
       <li>
-        <span class="ptitle">Prism-SSD: A Flexible Storage Interface for SSDs</span>
+        <span class="ptitle"><span class="pubtag">【TCAD’21】</span> Prism-SSD: A Flexible Storage Interface for SSDs</span>
         <span class="pauthors"><b>Zhaoyan Shen</b>, Feng Chen, Gala Yadgar, Zhiping Jia, Zili Shao</span>
         <span class="pvenue">IEEE Transactions on CAD of Integrated Circuits and Systems (<b>TCAD</b>), 2021 (CCF-A)</span>
       </li>
